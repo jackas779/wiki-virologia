@@ -122,6 +122,14 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   overflow: hidden; /* Ensure image stays within rounded corners */
   cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.process-item:hover {
+  color: white;
+  background-color: #3498db;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Darker, stronger shadow for emphasis */
+  transform: translateY(-10px); /* Slightly lift the card */
 }
 
 .process-item a {
@@ -129,14 +137,12 @@
   height: 90%;
 }
 
-
-.process-item a>img {
+.process-item a > img {
   width: 100%;
   height: 96%;
   border-radius: 5px;
   display: block;
 }
-
 
 .process-item p {
   padding: 10px 15px;
@@ -145,5 +151,9 @@
   color: #4a5568; /* Grey text for process name */
   font-weight: 700;
   object-fit: cover;
-  
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.process-item:hover p {
+  color: white; /* Change text color on hover for better contrast */
 }
