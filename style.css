@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f2f5; /* Light grey background */
+  color: #333; /* Dark grey text */
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.wiki-header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px 0;
+}
+
+.wiki-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  color: white;
+}
+
+.wiki-header-container h1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wiki-header-container h1 a:hover {
+  color: #f39c12;
+}

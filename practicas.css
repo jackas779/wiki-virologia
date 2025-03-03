@@ -1,0 +1,61 @@
+
+/* Estilos para el contenido principal */
+main {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Estilos para listas */
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+/* Estilos para los elementos de la lista */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Estilos para los subtítulos de la lista */
+h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #16a085;
+}
+
+/* Estilos para los enlaces dentro del contenido */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Botón de Volver Atrás */
+button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
