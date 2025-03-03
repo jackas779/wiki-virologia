@@ -30,22 +30,3 @@ section img{
   display: flex;
   align-items: center;
 }
-
-button{
-  background-color: #4CAF50; /* Color de fondo verde */
-  border: none;              /* Sin borde */
-  color: white;              /* Texto en blanco */
-  padding: 15px 32px;        /* Relleno alrededor del texto */
-  text-align: center;        /* Centrar texto */
-  text-decoration: none;     /* Eliminar subrayado (enlaces) */
-  display: inline-block;     /* Hacer el botón en línea */
-  font-size: 16px;           /* Tamaño de la fuente */
-  margin: 4px 2px;           /* Márgenes alrededor del botón */
-  cursor: pointer;           /* Mostrar el cursor como puntero al pasar sobre el botón */
-  border-radius: 8px;        /* Bordes redondeados */
-  transition: background-color 0.3s ease; /* Efecto de transición para el fondo */
-}
-
-button:hover {
-  background-color: #45a049; /* Color de fondo al pasar el mouse */
-}
