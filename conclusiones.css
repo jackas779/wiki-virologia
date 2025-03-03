@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+h1 {
+  margin: 0;
+}
+main {
+  padding: 20px;
+}
+section {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  color: #333;
+}
+ul, ol {
+  padding-left: 20px;
+}
+.conclusion {
+  background-color: #e0f7fa;
+  border-left: 5px solid #00838f;
+}
+.conclusion p {
+  font-weight: bold;
+  font-size: 16px;
+}
